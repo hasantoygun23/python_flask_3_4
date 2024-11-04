@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route("/")
 def head():
     first="This is my first conditions experience"
-    return render_template("index.html") #message="merhaba dünyalı"
+    return render_template("index.html" , message="merhaba dünyalı")
 
 
 # Create a function named header which prints numbers elements of list one by one in `index.html` 
